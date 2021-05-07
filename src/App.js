@@ -3,7 +3,7 @@ import React from "react";
 import NavBar from "./components/NavBar.jsx";
 import Footer from "./components/Footer";
 import { ThemeProvider } from "@material-ui/styles";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import HomePage from "./pages/HomePage.jsx";
 import PortfolioPage from "./pages/PortfolioPage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
@@ -11,7 +11,7 @@ import ContactPage from "./pages/ContactPage.jsx";
 export default function App() {
   return (
     <ThemeProvider>
-      <BrowserRouter>
+      <HashRouter>
         <NavBar />
         <Switch>
           <Route exact path="/" component={HomePage} />
@@ -19,7 +19,7 @@ export default function App() {
           <Route exact path="/contact" component={ContactPage} />
         </Switch>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </ThemeProvider>
   );
 }
