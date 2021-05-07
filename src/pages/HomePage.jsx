@@ -4,7 +4,7 @@ import { makeStyles } from "@material-ui/styles";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    height: "91vh",
+    height: "92vh",
     backgroundImage:
       "url(https://res.cloudinary.com/dd9hrrpch/image/upload/v1620178274/Sl3KP_rc0wew.jpg)",
   },

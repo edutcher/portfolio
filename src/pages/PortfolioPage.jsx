@@ -48,10 +48,10 @@ const portfolioItems = [
   },
   {
     image_url:
-      "https://res.cloudinary.com/dd9hrrpch/image/upload/v1620185457/trivia_zkkqwj.jpg",
-    title: "Snap That",
-    live_url: "",
-    repo_url: "https://github.com/edutcher/Snap_That",
+      "https://res.cloudinary.com/dd9hrrpch/image/upload/v1620427529/Budget_Tracker_rjbqio.png",
+    title: "Budget Tracker",
+    live_url: "https://thawing-tundra-80859.herokuapp.com/",
+    repo_url: "https://github.com/edutcher/budget-PWA",
   },
   {
     image_url:
